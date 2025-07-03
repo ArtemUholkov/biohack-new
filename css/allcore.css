@@ -1,0 +1,36 @@
+.allcore {
+  background: #dbdbdb;
+}
+.allcore-image {
+  left: -92px;
+  top: -40px;
+}
+.allcore_name {
+  font-size: 62px;
+}
+@media screen and (max-width: 1100px) {
+  .allcore_content {
+    flex-direction: column;
+  }
+  .allcore-image {
+    left: initial;
+    top: -40px;
+    right: -25px;
+  }
+  .allcore_left {
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgba(219, 219, 219, 0.6);
+    backdrop-filter: blur(22px);
+    padding: 12px 22px;
+  }
+  .allcore_name {
+    font-size: 32px;
+  }
+  .allcore_squares {
+    margin-bottom: 0;
+  }
+  .allcore_text {
+    margin-bottom: 40px !important;
+  }
+}

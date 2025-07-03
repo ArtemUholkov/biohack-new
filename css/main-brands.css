@@ -1,0 +1,130 @@
+.main_brands {
+  background: var(--color-white-solid, #fff);
+  padding: 100px 0;
+}
+.main_brands-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+}
+.main_brands_title {
+  color: var(--color-black-solid, #000);
+
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 62px;
+  font-style: normal;
+  font-weight: var(--font-weight-900, 900);
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 1223px;
+}
+.hightlight_title {
+  color: #49bf9d;
+  font-family: 'Open Sans';
+  font-size: 62px;
+  font-style: normal;
+  font-weight: var(--font-weight-900, 900);
+  line-height: normal;
+  text-transform: uppercase;
+}
+.main_brands_text {
+  color: var(--color-grey-13, #222);
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  max-width: 810px;
+}
+.main_brands_square {
+  box-shadow: 6px 8px 14px 0px rgba(0, 0, 0, 0.25);
+}
+.main_brands_right {
+  transform: rotate(0deg);
+  position: relative;
+  margin-right: 140px;
+  margin-right: 0;
+}
+.main_brands_video {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 600px;
+  width: auto;
+  border-radius: 15px;
+}
+.main_brands_name {
+  margin-bottom: 20px;
+  font-size: 40px;
+  text-align: left;
+}
+.zenos_text {
+  color: var(--color-grey-13, #222);
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 12px;
+}
+.main_brands_right-image {
+  position: absolute;
+  top: 83px;
+  left: -181px;
+  border-radius: 15px;
+  background: #fff;
+  padding: 22px 25px;
+  /* shadows */
+  box-shadow: 6px 8px 14px 0px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+}
+@media (max-width: 1300px) {
+  .main_brands_right {
+    margin-right: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .main_brands_left {
+    flex-direction: column-reverse;
+  }
+  .main_brands_left {
+    background: none;
+    backdrop-filter: none;
+  }
+  .contri_squares_wrapper {
+    margin-bottom: 40px;
+  }
+  .main_brands_left {
+    /* width: 100%; */
+    max-width: initial;
+    padding: 0;
+  }
+  .main_brands_name {
+    text-align: left;
+  }
+  .main_brands_right-image {
+    top: -60px;
+    left: 10px;
+    padding: 12px 25px;
+  }
+  .main_brands_title {
+    font-size: 30px;
+  }
+  .hightlight_title {
+    font-size: 30px;
+    line-height: normal;
+  }
+  .main_brands_text {
+    font-size: 16px;
+  }
+  .zenos_text {
+    margin-bottom: 12px !important;
+  }
+}

@@ -1,0 +1,25 @@
+.axolt {
+  background: #000;
+}
+.axolt_name {
+  color: #fff;
+}
+.axolt_text {
+  color: #fff;
+}
+.axolt_squares_wrapper {
+  width: 100%;
+}
+.axolt_left {
+  min-width: 60%;
+}
+.axolt_right {
+  left: -135px;
+}
+@media (max-width: 1100px) {
+  .axolt_right {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}

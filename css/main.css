@@ -255,7 +255,7 @@
   }
   .main_button {
     max-width: 100%;
-
+    margin-bottom: 24px;
     text-align: center;
   }
 }
