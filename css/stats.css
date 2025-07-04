@@ -1,0 +1,112 @@
+.stats {
+  padding: 61px 0 0 0;
+  background: #dbdbdb;
+}
+.stats-container {
+  max-width: 1005px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+.stats_title {
+  color: #000;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 52px;
+  font-style: normal;
+  font-weight: var(--font-weight-900, 900);
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+}
+.stats_title-highlight {
+  color: #49bf9d;
+  font-family: 'Open Sans';
+  font-size: 52px;
+  font-style: normal;
+  font-weight: var(--font-weight-900, 900);
+  line-height: normal;
+  text-transform: uppercase;
+}
+.stats_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+  margin-bottom: 50px;
+}
+.stats_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+}
+.stats_views {
+  max-width: 460px;
+  height: auto;
+  width: 100%;
+  box-shadow: 7.708px 10.278px 17.986px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25.24px;
+}
+.stats_account {
+  max-width: 460px;
+  height: auto;
+  width: 100%;
+  box-shadow: 7.708px 10.278px 17.986px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25.24px;
+}
+.stat_right {
+  max-height: 542px;
+  height: 100%;
+  width: auto;
+  box-shadow: 7.708px 10.278px 17.986px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25.24px;
+  /* object-fit: cover; */
+}
+.stats_undertittle {
+  color: var(--color-grey-13, #222);
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 42px;
+  font-style: normal;
+  font-weight: var(--font-weight-900, 900);
+  line-height: normal;
+  text-transform: uppercase;
+}
+.undersubtitle {
+  color: var(--color-black-solid, #000);
+  font-family: 'Open Sans';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .stats_title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+  .stats_title-highlight {
+    font-size: 28px;
+  }
+  .stats_undertittle {
+    font-size: 32px;
+  }
+  .undersubtitle {
+    font-size: 22px;
+  }
+  .stats_content {
+    flex-direction: column;
+    gap: 22px;
+    margin-bottom: 22px;
+  }
+  .stats_left {
+    gap: 22px;
+  }
+
+  .stats_views {
+  }
+}
