@@ -6,6 +6,7 @@
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px 0 20px;
+  margin-bottom: 42px;
 }
 .drs_title {
   color: var(--color-white-solid, #fff);
@@ -17,6 +18,9 @@
   line-height: normal;
   text-transform: uppercase;
   margin-bottom: 42px;
+}
+.drs_button {
+  max-width: 220px;
 }
 .drs_wrapper {
   display: grid;

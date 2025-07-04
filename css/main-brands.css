@@ -40,6 +40,9 @@
   margin-bottom: 60px;
   max-width: 810px;
 }
+.main_brands_text b {
+  font-weight: 700;
+}
 .main_brands_square {
   box-shadow: 6px 8px 14px 0px rgba(0, 0, 0, 0.25);
 }
@@ -126,5 +129,8 @@
   }
   .zenos_text {
     margin-bottom: 12px !important;
+  }
+  .main_brands_right-image-mobile {
+    top: -40px;
   }
 }
